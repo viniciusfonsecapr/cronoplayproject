@@ -27,6 +27,10 @@ export const ContainerItems = styled.div`
     color: #fff;
   }
 
+  span {
+    color: #fff;
+  }
+
   form {
     display: flex;
     flex-direction: column;
