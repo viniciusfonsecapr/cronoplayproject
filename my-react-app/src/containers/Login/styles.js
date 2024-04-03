@@ -10,7 +10,7 @@ export const ContainerItems = styled.div`
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 8%;
   height: 68%;
   width: 20%;
   padding: 1%;
