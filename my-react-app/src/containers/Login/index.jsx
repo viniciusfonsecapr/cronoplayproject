@@ -1,11 +1,11 @@
 import React from "react";
 import * as Yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
-
-import { Container, ContainerItems } from "./styles.js";
-
 import { useForm } from "react-hook-form";
 import { Link, useHistory } from "react-router-dom";
+
+import Logo from "../../assets/logoDevPlay.png";
+import { Container, ContainerItems } from "./styles.js";
 
 export function Login() {
   const history = useHistory();
@@ -32,14 +32,18 @@ export function Login() {
   return (
     <Container>
       <ContainerItems>
-        <h1>Login</h1>
+        <img src={Logo}></img>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <input type="email" {...register("email")} />
-          {errors.email && <span>This field is required</span>}
+          <input type="email" placeholder="E-mail" {...register("email")} />
+          {errors.email && <span>Campo Obrigatório</span>}
 
-          <input type="password" {...register("password")} />
+          <input
+            placeholder="Password"
+            type="password"
+            {...register("password")}
+          />
 
-          {errors.password && <span>This field is required</span>}
+          {errors.password && <span>Campo Obrigatório</span>}
           <button type="submit">LOGIN</button>
         </form>
       </ContainerItems>
