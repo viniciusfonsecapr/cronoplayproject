@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-
 `;
+
 export const ContainerItems = styled.div`
   display: flex;
   flex-direction: column;
