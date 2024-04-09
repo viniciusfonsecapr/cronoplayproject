@@ -48,7 +48,7 @@ export function Register() {
               caso o input não tenha sido criado ainda replicar o texto dos input para simular eles*/}
 
           {/* aqui vai o botão de registrar */}
-
+          <Button> Registrar</Button>
           {/* aqui vai o botão/link para redirecionar para o login de forma manual */}
         </form>
       </ContainerItems>
