@@ -36,13 +36,11 @@ export function Login() {
         <form onSubmit={handleSubmit(onSubmit)}>
           <input type="email" placeholder="E-mail" {...register("email")} />
           {errors.email && <span>Campo Obrigatório</span>}
-
           <input
             placeholder="Password"
             type="password"
             {...register("password")}
           />
-
           {errors.password && <span>Campo Obrigatório</span>}
           <button type="submit">LOGIN</button>
         </form>

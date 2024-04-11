@@ -14,6 +14,7 @@ export function Register() {
     email: Yup.string()
       .email("Digite um e-mail válido")
       .required("O e-mail é obrigatorio"),
+    nome: Yup.string().min(4).required("O nome é obrigatorio"),
     password: Yup.string("Digite uma senha válida")
       .required("A Senha é obrigatoria")
       .min(6, "A senha deve ter pelo menos 6 digitos"),
@@ -33,22 +34,20 @@ export function Register() {
     <Container>
       <ContainerItems>
         {/* aqui vai a logo */}
-        <div>
-          <h1> divs e h1 para preencher espaço apenas </h1>
-        </div>
-        {/* apagar as divs e h1 apos adicionar logo  */}
-        <div>
-          <h1>divs e h1 para preencher espaço apenas</h1>
-        </div>
 
         <form onSubmit={handleSubmit(onSubmit)}>
-          {/* aqui vão os 3 input's de dados (Nome, Email, Password) */}
+          <input type="nome" placeholder="Nome" {...register("nome")} />
 
-          {/* aqui vai o span para mensagens de erro (obs: abaixo de cada input,
-              caso o input não tenha sido criado ainda replicar o texto dos input para simular eles*/}
+          <input type="email" placeholder="E-mail" {...register("email")} />
 
-          {/* aqui vai o botão de registrar */}
+          <input
+            placeholder="Password"
+            type="password"
+            {...register("password")}
+          />
+
           <Button> Registrar</Button>
+
           {/* aqui vai o botão/link para redirecionar para o login de forma manual */}
         </form>
       </ContainerItems>
