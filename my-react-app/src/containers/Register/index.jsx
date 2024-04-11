@@ -33,6 +33,7 @@ export function Register() {
     <Container>
       <ContainerItems>
         {/* aqui vai a logo */}
+        <img src={Logo} alt = "Logo" width = "500" height = "600"/>
         <div>
           <h1> divs e h1 para preencher espaço apenas </h1>
         </div>
@@ -43,13 +44,19 @@ export function Register() {
 
         <form onSubmit={handleSubmit(onSubmit)}>
           {/* aqui vão os 3 input's de dados (Nome, Email, Password) */}
+          <input type = "name" placeholder="Nome" />
+          <input type = "email" placeholder="E-mail" />
+          <input type = "Password" placeholder="Senha" />
+
 
           {/* aqui vai o span para mensagens de erro (obs: abaixo de cada input,
               caso o input não tenha sido criado ainda replicar o texto dos input para simular eles*/}
 
           {/* aqui vai o botão de registrar */}
-          <Button> Registrar</Button>
+          <Button type = "Submit" > Registrar</Button>
           {/* aqui vai o botão/link para redirecionar para o login de forma manual */}
+          <a href = "./Login" > Voltar para o Login! </a>
+        
         </form>
       </ContainerItems>
     </Container>
