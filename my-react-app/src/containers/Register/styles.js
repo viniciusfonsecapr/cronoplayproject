@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
+export const Container = styled.div``;
 
-export const Container = styled.div`
-
-
-`;
 export const ContainerItems = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   margin: 0 auto;
   margin-top: 8%;
   height: 68%;
@@ -28,46 +26,39 @@ export const ContainerItems = styled.div`
     font-size: 24px;
     color: #fff;
   }
+`;
 
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+export const Button = styled.div`
+  
+  
+  
+  
+  
+  
+  
+  /* border-radius: 25px;
+  border: none;
+  height: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
 
-    input {
-      height: 50px;
-      border-radius: 25px;
-      border: none;
-      padding-left: 30px;
-      letter-spacing: 5px;
-    }
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: #9ca41f;
+  cursor: pointer;
+  text-decoration: none;
 
-    span {
-      color: red;
-    }
-
-    button {
-      border-radius: 25px;
-      border: none;
-      height: 50px;
-      width: 50%;
-      margin: 0 auto;
-
-      font-size: 20px;
-      font-weight: bold;
-      color: white;
-      background: #9ca41f;
-      cursor: pointer;
-      text-decoration: none;
-
-      &:hover {
-        opacity: 0.7;
-        cursor: pointer;
-        transform: scale(1.1);
-      }
-      &:active {
-        opacity: 0.6;
-      }
-    }
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transform: scale(1.1);
   }
+  &:active {
+    opacity: 0.6;
+  } */
 `;
