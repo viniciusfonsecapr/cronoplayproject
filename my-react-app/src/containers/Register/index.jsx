@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { Link, useHistory } from "react-router-dom";
 
 import Logo from "../../assets/logoDevPlay.png";
-import { Container, ContainerItems } from "./styles.js";
+import { Container, ContainerItems, Button } from "./styles.js";
 
 export function Register() {
   const history = useHistory();
