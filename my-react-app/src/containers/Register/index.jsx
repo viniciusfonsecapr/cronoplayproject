@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import * as Yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import { Link, useHistory } from "react-router-dom";
 
 import Logo from "../../assets/logoDevPlay.png";
-import { Container, ContainerItems, Button } from "./styles.js";
+import { Container, ContainerItems } from "./styles.js";
+import { Button } from "../../components/Button/styles.js";
 
 export function Register() {
   const history = useHistory();
@@ -14,7 +15,7 @@ export function Register() {
     email: Yup.string()
       .email("Digite um e-mail válido")
       .required("O e-mail é obrigatorio"),
-    nome: Yup.string().min(4).required("O nome é obrigatorio"),
+    name: Yup.string().min(4),
     password: Yup.string("Digite uma senha válida")
       .required("A Senha é obrigatoria")
       .min(6, "A senha deve ter pelo menos 6 digitos"),
@@ -28,36 +29,61 @@ export function Register() {
     resolver: yupResolver(schema),
   });
 
-  const onSubmit = (data) => console.log(data);
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
 
+  const onSubmit = (data, e) => {
+    e.preventDefault();
+
+    const Users = JSON.parse(localStorage.getItem("users")) || [];
+    const isUserRegistered = Users.find((user) => user.email === data.email);
+    if (isUserRegistered) {
+      history.push("/login");
+      return alert("Usuario já registrado!");
+    }
+
+    Users.push({ name: data.name, email: data.email, password: data.password });
+    localStorage.setItem("users", JSON.stringify(Users));
+    alert("Registro Realizado!");
+    console.log(data);
+  };
   return (
     <Container>
       <ContainerItems>
-        {/* aqui vai a logo */}
-        <img src={Logo} alt="Logo" width="500" height="600" />
-        <div>
-          <h1> divs e h1 para preencher espaço apenas </h1>
-        </div>
-        {/* apagar as divs e h1 apos adicionar logo  */}
-        <div>
-          <h1>divs e h1 para preencher espaço apenas</h1>
-        </div>
+        <img src={Logo} alt="Logo" />
 
         <form onSubmit={handleSubmit(onSubmit)}>
-          <input type="nome" placeholder="Nome" {...register("nome")} />
-
-          <input type="email" placeholder="E-mail" {...register("email")} />
+          <input
+            value={name}
+            onChange={(event) => setName(event.target.value)}
+            type="name"
+            placeholder="Nome"
+            {...register("name")}
+          />
+          {errors.name && <span>Campo Obrigatorio</span>}
 
           <input
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
+            type="email"
+            placeholder="E-mail"
+            {...register("email")}
+          />
+          {errors.email && <span>Campo Obrigatorio</span>}
+
+          <input
+            value={password}
+            onChange={(event) => setPassword(event.target.value)}
             placeholder="Password"
             type="password"
             {...register("password")}
           />
+          {errors.password && <span>Campo Obrigatorio</span>}
 
-          <Button> Registrar</Button>
+          <Button type="submit"> Registrar</Button>
 
-          {/* aqui vai o botão/link para redirecionar para o login de forma manual */}
-          <a href="./Login"> Voltar para o Login! </a>
+          <a href="./login"> Voltar para o Login! </a>
         </form>
       </ContainerItems>
     </Container>
