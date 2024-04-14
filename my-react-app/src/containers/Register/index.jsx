@@ -34,6 +34,14 @@ export function Register() {
     <Container>
       <ContainerItems>
         {/* aqui vai a logo */}
+        <img src={Logo} alt="Logo" width="500" height="600" />
+        <div>
+          <h1> divs e h1 para preencher espaço apenas </h1>
+        </div>
+        {/* apagar as divs e h1 apos adicionar logo  */}
+        <div>
+          <h1>divs e h1 para preencher espaço apenas</h1>
+        </div>
 
         <form onSubmit={handleSubmit(onSubmit)}>
           <input type="nome" placeholder="Nome" {...register("nome")} />
@@ -49,6 +57,7 @@ export function Register() {
           <Button> Registrar</Button>
 
           {/* aqui vai o botão/link para redirecionar para o login de forma manual */}
+          <a href="./Login"> Voltar para o Login! </a>
         </form>
       </ContainerItems>
     </Container>
