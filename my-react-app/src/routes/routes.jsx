@@ -4,6 +4,11 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import { Login, Register, Home } from "../containers";
 import paths from "../constants/paths";
 
+// const user = JSON.parse(localStorage.getItem("login_success")) || false;
+// if (!user) {
+//   window.location.href = "/login";
+// }
+
 function Routes() {
   return (
     <Router>

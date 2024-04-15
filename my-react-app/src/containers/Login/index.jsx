@@ -39,7 +39,7 @@ export function Login() {
     }
     alert(`Bem vindo Senhor ${validUser.name}`);
     localStorage.setItem("login_success", JSON.stringify(validUser));
-    window.location.href = "./";
+    window.location.href = "/";
   };
 
   return (
