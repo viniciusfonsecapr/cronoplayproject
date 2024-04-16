@@ -3,11 +3,7 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
 import { Login, Register, Home } from "../containers";
 import paths from "../constants/paths";
-
-// const user = JSON.parse(localStorage.getItem("login_success")) || false;
-// if (!user) {
-//   window.location.href = "/login";
-// }
+import PrivateRoute from "./private.route";
 
 function Routes() {
   return (
@@ -15,7 +11,7 @@ function Routes() {
       <Switch>
         <Route component={Login} path={paths.Login}></Route>
         <Route exact component={Register} path={paths.Register}></Route>
-        <Route exact component={Home} path={paths.Home}></Route>
+        <PrivateRoute exact component={Home} path={paths.Home}></PrivateRoute>
       </Switch>
     </Router>
   );

@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import * as Yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
-import { Link, useHistory } from "react-router-dom";
 
 import Logo from "../../assets/logoDevPlay.png";
 import { Container, ContainerItems } from "./styles.js";
 import { Home } from "../Home/index.jsx";
+import { STORAGE_KEY } from "../../utils/auth.jsx";
 
 export function Login() {
   const schema = Yup.object().shape({
@@ -30,7 +30,7 @@ export function Login() {
   const [password, setPassword] = useState();
 
   const onSubmit = (data) => {
-    const Users = JSON.parse(localStorage.getItem("users")) || [];
+    const Users = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
     const validUser = Users.find(
       (user) => user.email === data.email && user.password === data.password
     );
@@ -38,7 +38,9 @@ export function Login() {
       return alert("Usuario ou senha incorretos!");
     }
     alert(`Bem vindo Senhor ${validUser.name}`);
-    localStorage.setItem("login_success", JSON.stringify(validUser));
+
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(validUser));
+
     window.location.href = "/";
   };
 
