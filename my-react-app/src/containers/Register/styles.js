@@ -26,38 +26,42 @@ export const ContainerItems = styled.div`
     font-size: 24px;
     color: #fff;
   }
-`;
 
-export const Button = styled.div`
-  
-   
-  button {
-      border-radius: 25px;
-      border: none;
-      height: 50px;
-      width: 50%;
-      margin: 0 auto;
+  form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
-      font-size: 20px;
-      font-weight: bold;
-      color: white;
-      background: #2247b5;
-      cursor: pointer;
-      text-decoration: none;
+  input {
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 30px;
+    letter-spacing: 5px;
+  }
 
-      &:hover {
-        opacity: 0.7;
-        cursor: pointer;
-        transform: scale(1.1);
-      }
-      &:active {
-        opacity: 0.6;
-      }
+  span {
+    color: red;
+  }
+
+  a {
+      text-decoration:none;
+       color: white;
+
+   &:active {
+    color: green;
+   }
+   &:hover {
+    scale: 1.08;
+   }
     }
   
   
-  
-  /* border-radius: 25px;
+}
+`;
+
+export const Button = styled.button`
+  border-radius: 25px;
   border: none;
   height: 50px;
   width: 50%;
@@ -70,7 +74,7 @@ export const Button = styled.div`
   font-size: 20px;
   font-weight: bold;
   color: white;
-  background: #9ca41f;
+  background: #2247b5;
   cursor: pointer;
   text-decoration: none;
 
@@ -81,5 +85,8 @@ export const Button = styled.div`
   }
   &:active {
     opacity: 0.6;
-  } */
+  }
 `;
+
+
+
