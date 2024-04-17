@@ -30,10 +30,12 @@ export function Login() {
   const [password, setPassword] = useState();
 
   const onSubmit = (data) => {
-    const Users = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+    const Users = JSON.parse(localStorage.getItem(STORAGE_KEY, data)) || [];
+
     const validUser = Users.find(
       (user) => user.email === data.email && user.password === data.password
     );
+
     if (!validUser) {
       return alert("Usuario ou senha incorretos!");
     }
