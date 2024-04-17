@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
-
-export const Container = styled.div`
-
-`;
+export const Container = styled.div``;
 
 export const ContainerItems = styled.div`
   display: flex;
@@ -67,6 +64,19 @@ export const ContainerItems = styled.div`
       }
       &:active {
         opacity: 0.6;
+      }
+    }
+
+    a {
+      margin: 0 auto;
+      text-decoration: none;
+      color: white;
+
+      &:active {
+        color: green;
+      }
+      &:hover {
+        scale: 1.08;
       }
     }
   }
