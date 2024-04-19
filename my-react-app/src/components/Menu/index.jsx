@@ -91,7 +91,7 @@ export function Menu() {
               />
               <div className="d-flex flex-column  ms-5 text-uppercase fw-bold">
                 <p className="m-auto ">{user.name}</p>
-                <p className="m-auto ">Nivel 5</p>
+                <p className="m-auto ">Nivel 45</p>
               </div>
             </div>
 
