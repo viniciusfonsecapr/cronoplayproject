@@ -5,7 +5,6 @@ import { useForm } from "react-hook-form";
 
 import Logo from "../../assets/logoDevPlay.png";
 import { Container, ContainerItems } from "./styles.js";
-import { Home } from "../Home/index.jsx";
 import { STORAGE_KEY } from "../../utils/auth.jsx";
 
 export function Login() {
