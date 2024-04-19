@@ -1,15 +1,11 @@
 import styled from "styled-components";
 
-export const Container =  styled.div`
-background-color: #000;
-height: 100vh;
+export const Container = styled.div`
 
-h1 {
-    color: #fff;
-  }
+
 `
 
-export const ContainerItems =  styled.div`
+export const ContainerItems = styled.div`
 
 
 `
