@@ -4,10 +4,11 @@ import {
   ContainerHome,
   ContainerMenu,
   Container,
-  LogoCenter,
+  TextCenter,
 } from "./styles.js";
 
-import Logo from "../../assets/logoDevPlay.png";
+import Logo from "../../assets/Sol.png";
+import PlanetaHtml from "../../assets/Planeta 1.png";
 
 export function Home() {
   return (
@@ -16,10 +17,17 @@ export function Home() {
         <Menu />
       </ContainerMenu>
 
-      {/* Logo central apenas para ter algo no restante pode apagar */}
-      <LogoCenter src={Logo} />
-
-      <ContainerHome />
+      <ContainerHome>
+        <TextCenter src={Logo} />
+        <div className="Planeta1">
+          <a href="/html1">
+            <img src={PlanetaHtml} /> <h1>HTML</h1>
+          </a>
+        </div>
+        <div className="Planeta2"></div>
+        <div className="Planeta3"></div>
+        <div className="Planeta4"></div>
+      </ContainerHome>
     </Container>
   );
 }
