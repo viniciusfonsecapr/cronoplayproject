@@ -9,6 +9,8 @@ import {
 
 import Logo from "../../assets/Sol.png";
 import PlanetaHtml from "../../assets/Planeta 1.png";
+import PlanetaCss from "../../assets/Planeta 2.png";
+import PlanetaJavaScript from "../../assets/Planeta 3.png";
 
 export function Home() {
   return (
@@ -24,8 +26,16 @@ export function Home() {
             <img src={PlanetaHtml} /> <h1>HTML</h1>
           </a>
         </div>
-        <div className="Planeta2"></div>
-        <div className="Planeta3"></div>
+        <div className="Planeta2">
+          <a href="/css1">
+            <img src={PlanetaCss} /> <h1>CSS</h1>
+          </a>
+        </div>
+        <div className="Planeta3">
+          <a href="/javascript1">
+            <img src={PlanetaJavaScript} /> <h1>JAVASCRIPT</h1>
+          </a>
+        </div>
         <div className="Planeta4"></div>
       </ContainerHome>
     </Container>
