@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/logoDevPlay.png";
+import Profile from "../../assets/Perfil.png";
 import { logout, STORAGE_KEY } from "../../utils/auth";
 import { ColorBackground } from "./styles";
 function onSubmit() {
@@ -36,8 +37,8 @@ export function Menu() {
                 <div className="bg-dark">
                   <a className="" href="#">
                     <img
-                      src={Logo}
-                      alt="Logo"
+                      src={Profile}
+                      alt="Perfil"
                       width="130"
                       height="130"
                       className="me-5"
