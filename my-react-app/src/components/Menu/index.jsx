@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/logoDevPlay.png";
+import Profile from "../../assets/Perfil.png";
 import { logout, STORAGE_KEY } from "../../utils/auth";
 import { ColorBackground } from "./styles";
 function onSubmit() {
@@ -83,8 +84,8 @@ export function Menu() {
 
             <div className=" d-flex flex-row bg-dark text-light mt-1 mx-auto">
               <img
-                src={Logo}
-                alt="Logo"
+                src={Profile}
+                alt="Perfil"
                 width="100"
                 height="100"
                 className=""
