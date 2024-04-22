@@ -37,8 +37,8 @@ export function Menu() {
                 <div className="bg-dark">
                   <a className="" href="#">
                     <img
-                      src={Profile}
-                      alt="Perfil"
+                      src={Logo}
+                      alt="Logo"
                       width="130"
                       height="130"
                       className="me-5"
@@ -84,8 +84,8 @@ export function Menu() {
 
             <div className=" d-flex flex-row bg-dark text-light mt-1 mx-auto">
               <img
-                src={Logo}
-                alt="Logo"
+                src={Profile}
+                alt="Perfil"
                 width="100"
                 height="100"
                 className=""
