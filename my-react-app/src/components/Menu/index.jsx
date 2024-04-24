@@ -36,13 +36,7 @@ export function Menu() {
               <nav className=" bg-body-tertiary">
                 <div className="bg-dark">
                   <a className="" href="#">
-                    <img
-                      src={Logo}
-                      alt="Logo"
-                      width="130"
-                      height="130"
-                      className="me-5"
-                    />
+                    <img src={Logo} alt="Logo" className="me-5 w-50 h-50" />
                   </a>
                 </div>
               </nav>
@@ -85,9 +79,8 @@ export function Menu() {
             <div className=" d-flex flex-row bg-dark text-light mt-1 mx-auto">
               <img
                 src={Profile}
+                style={{ width: "5vw", height: "10vh" }}
                 alt="Perfil"
-                width="100"
-                height="100"
                 className=""
               />
               <div className="d-flex flex-column  ms-5 text-uppercase fw-bold">
