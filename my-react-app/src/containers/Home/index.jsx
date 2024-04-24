@@ -5,6 +5,7 @@ import {
   ContainerMenu,
   Container,
   TextCenter,
+  Curiosity,
 } from "./styles.js";
 
 import Logo from "../../assets/Sol.png";
@@ -37,6 +38,28 @@ export function Home() {
           </a>
         </div>
         <div className="Planeta4"></div>
+
+        <Curiosity>
+          <h2>Newsletter do Dia!</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            eligendi asperiores dolores veniam optio aliquam ullam architecto
+            itaque deserunt accusamus laborum, voluptatibus quod molestiae
+            voluptatem vel sunt aut quam vitae?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            eligendi asperiores dolores veniam optio aliquam ullam architecto
+            itaque deserunt accusamus laborum, voluptatibus quod molestiae
+            voluptatem vel sunt aut quam vitae?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            eligendi asperiores dolores veniam optio aliquam ullam architecto
+            itaque deserunt accusamus laborum, voluptatibus quod molestiae
+            voluptatem vel sunt aut quam vitae?
+          </p>
+        </Curiosity>
       </ContainerHome>
     </Container>
   );

@@ -18,8 +18,8 @@ export const ContainerHome = styled.div`
     font-style: italic;
 
     img {
-      width: 10vw;
-      height: 21vh;
+      width: 8vw;
+      height: 16vh;
       object-fit: cover;
       image-rendering: optimizeQuality;
     }
@@ -30,7 +30,7 @@ export const ContainerHome = styled.div`
   }
   .Planeta1 {
     position: absolute;
-    margin-top: 20vh;
+    margin-top: 25vh;
     margin-left: 75vh;
     a {
       color: orange;
@@ -38,7 +38,7 @@ export const ContainerHome = styled.div`
   }
   .Planeta2 {
     position: absolute;
-    margin-top: 45vh;
+    margin-top: 48vh;
     margin-left: 63vh;
 
     a {
@@ -57,8 +57,34 @@ export const ContainerHome = styled.div`
 `;
 export const TextCenter = styled.img`
   position: absolute;
-  margin-top: -15vh;
+  margin-top: -25vh;
   margin-left: 50vh;
   width: 50vw;
-  height: 50vh;
+  height: 70vh;
 `;
+
+export const Curiosity = styled.div`
+position: fixed;
+margin-top: 8%;
+margin-left: 2%;
+border-radius: 10px;
+border: none;
+background: gray;
+color: white;
+text-align: center;
+-webkit-box-shadow: 25px 9px 21px 3px rgba(0,0,0,0.54);
+-moz-box-shadow: 25px 9px 21px 3px rgba(0,0,0,0.54);
+box-shadow: 25px 9px 21px 3px rgba(0,0,0,0.54);
+width: 20vw;
+height: 80vh;
+
+h2 {
+  
+  margin-top: 15px;
+}
+
+p {
+  padding: 15px;
+}
+
+`
