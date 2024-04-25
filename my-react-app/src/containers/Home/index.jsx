@@ -23,7 +23,7 @@ export function Home() {
       <ContainerHome>
         <TextCenter src={Logo} />
         <div className="Planeta1">
-          <a href="/html1">
+          <a href="/atv-html">
             <img src={PlanetaHtml} /> <h1>HTML</h1>
           </a>
         </div>
