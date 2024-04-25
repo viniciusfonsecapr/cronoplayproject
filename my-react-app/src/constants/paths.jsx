@@ -1,8 +1,8 @@
 const paths = {
-    Login: '/login',
-    Register: '/register',
-    Home: '/',
+  Login: "/login",
+  Register: "/register",
+  Home: "/",
+  Html: "/atv-html",
+};
 
-}
-
-export default paths
+export default paths;
