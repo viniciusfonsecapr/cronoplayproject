@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../assets/logoDevPlay.png";
-import Profile from "../../assets/Perfil.png";
+import Profile from "../../assets/male-avatar.svg";
 import { logout, STORAGE_KEY } from "../../utils/auth";
 import { ColorBackground, Container } from "./styles";
 function onSubmit() {
