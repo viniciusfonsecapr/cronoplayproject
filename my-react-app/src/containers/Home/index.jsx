@@ -19,25 +19,23 @@ export function Home() {
   return (
     <Container>
       <Menu />
-
+      <TextCenter src={MensagemSol} />
       <ContainerHome>
-        <TextCenter src={MensagemSol} />
-
         <AstronaultGuy src={Astronauta} />
 
         <div className="Planeta1">
           <a href="/html-page">
-            <img src={PlanetaHtml} /> <h1>HTML</h1>
+            <img src={PlanetaHtml} /> HTML
           </a>
         </div>
         <div className="Planeta2">
           <a href="/css-page">
-            <img src={PlanetaCss} /> <h1>CSS</h1>
+            <img src={PlanetaCss} /> CSS
           </a>
         </div>
         <div className="Planeta3">
           <a href="#">
-            <img src={PlanetaJavaScript} /> <h1>JAVASCRIPT</h1>
+            <img src={PlanetaJavaScript} /> JAVASCRIPT
           </a>
         </div>
       </ContainerHome>
