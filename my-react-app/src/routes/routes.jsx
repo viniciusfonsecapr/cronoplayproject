@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
-import { Login, Register, Home, Html } from "../containers";
+import { Login, Register, Home, Html, Css } from "../containers";
 import paths from "../constants/paths";
 import PrivateRoute from "./private.route";
 
@@ -10,9 +10,14 @@ function Routes() {
     <Router>
       <Switch>
         <Route component={Login} path={paths.Login}></Route>
-        <Route exact component={Register} path={paths.Register}></Route>
+        <Route component={Register} path={paths.Register}></Route>
         <PrivateRoute exact component={Home} path={paths.Home}></PrivateRoute>
-        <PrivateRoute exact component={Html} path={paths.Html}></PrivateRoute>
+        <PrivateRoute component={Html} path={paths.Html}></PrivateRoute>
+        <PrivateRoute component={Css} path={paths.Css}></PrivateRoute>
+        {/* <PrivateRoute
+          component={Javascript}
+          path={paths.Javascript}
+        ></PrivateRoute> */}
       </Switch>
     </Router>
   );

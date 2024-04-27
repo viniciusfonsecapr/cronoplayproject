@@ -1,2 +1,0 @@
-Cor do placeholder dos input: #A6A6A6
-Cor do background do botão: #9CA41F

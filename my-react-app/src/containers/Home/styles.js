@@ -4,9 +4,6 @@ export const Container = styled.div`
   width: 100vw;
   height: 100vh;
 `;
-
-export const ContainerMenu = styled.div``;
-
 export const ContainerHome = styled.div`
 
   a {
@@ -55,6 +52,10 @@ export const ContainerHome = styled.div`
     }
   }
 `;
+
+
+
+
 export const TextCenter = styled.img`
   position: absolute;
   margin-top: -25vh;
@@ -63,28 +64,25 @@ export const TextCenter = styled.img`
   height: 70vh;
 `;
 
-export const Curiosity = styled.div`
+export const AstronaultGuy = styled.img`
 position: fixed;
-margin-top: 8%;
-margin-left: 2%;
-border-radius: 10px;
-border: none;
-background: gray;
-color: white;
-text-align: center;
--webkit-box-shadow: 25px 9px 21px 3px rgba(0,0,0,0.54);
--moz-box-shadow: 25px 9px 21px 3px rgba(0,0,0,0.54);
-box-shadow: 25px 9px 21px 3px rgba(0,0,0,0.54);
-width: 20vw;
-height: 80vh;
+margin-top: 15%;
+margin-left: 60%;
+width: 25vw;
+height: 35vh;
+`
 
-h2 {
-  
-  margin-top: 15px;
-}
+export const Cloud = styled.div`
+position: fixed;
+margin: 0 auto;
+margin-top: 31%;
+width: 100vw;
+height: 60vh;
 
-p {
-  padding: 15px;
+img {
+  width: 100%;
+  height:100%;
 }
 
 `
+
