@@ -53,7 +53,7 @@ export const ContainerHome = styled.div`
   .Planeta2 {
     position: absolute;
     margin-top: 50vh;
-    margin-left: 10%;
+    margin-left: 13%;
 
     a {
       color: yellowgreen;
@@ -72,10 +72,19 @@ export const ContainerHome = styled.div`
 
 export const AstronaultGuy = styled.img`
   position: fixed;
-  margin-top: 15%;
+  margin-top: 20%;
+  margin-left: 40%;
+  width: 25vw;
+  height: 35vh;
+
+@media (max-width: 600px) {
+  position: fixed;
+  margin-top: 75%;
   margin-left: 60%;
   width: 25vw;
   height: 35vh;
+
+}
 `;
 
 export const Cloud = styled.div`
