@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import * as Yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
-import Swal from "sweetalert2";
 
 import { STORAGE_KEY } from "../../utils/auth.jsx";
 import Logo from "../../assets/logoDevPlay.png";
@@ -30,13 +29,6 @@ export function Login() {
   const [password, setPassword] = useState();
 
   const onSubmit = (data) => {
-    const Toast = Swal.fire({
-      title: "Email ou Senha Invalidos!",
-      text: "Verifique se os Dados Inseridos estão Corretos",
-      icon: "error",
-      confirmButtonText: "Voltar",
-    });
-
     const Users = JSON.parse(localStorage.getItem(STORAGE_KEY, data)) || [];
 
     const validUser = Users.find(
@@ -44,7 +36,7 @@ export function Login() {
     );
 
     if (!validUser) {
-      return Toast();
+      return alert("Email o senha incorretos, verifique os dados!");
     }
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(validUser));

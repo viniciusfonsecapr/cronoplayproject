@@ -46,6 +46,7 @@ export function Register() {
     Users.push({ name: data.name, email: data.email, password: data.password });
     localStorage.setItem("users", JSON.stringify(Users));
     alert("Registro Realizado!");
+    history.push("/login");
   };
   return (
     <Container>
