@@ -32,6 +32,7 @@ ul {
   flex-direction: column;
   gap: 40px;
   padding-top: 50px;
+  
 }
 li {
   color: orange;
@@ -39,9 +40,13 @@ li {
   list-style-type: none;
 }
 
-input {
-   width: 40px;
-   height: 40px;
+div {
+ width: 50px;
+ background: white;
+ height: 50px;
+ border: none;
+  border-radius: 10px;
+  
 }
 
 `

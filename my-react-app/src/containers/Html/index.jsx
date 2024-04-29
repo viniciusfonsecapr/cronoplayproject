@@ -12,20 +12,16 @@ export function Html() {
           <h1>Missão 1</h1>
           <ul>
             <li>
-              {" "}
-              <input type="checkbox" name="" id="" />
+              <div />
             </li>
             <li>
-              {" "}
-              <input type="checkbox" name="" id="" />
+              <div />
             </li>
             <li>
-              {" "}
-              <input type="checkbox" name="" id="" />
+              <div />
             </li>
             <li>
-              {" "}
-              <input type="checkbox" name="" id="" />
+              <div />
             </li>
           </ul>
         </ContainerDiv>
