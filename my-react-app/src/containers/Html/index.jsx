@@ -1,30 +1,22 @@
 import React from "react";
-import { Container, ContainerDiv, AlignLi } from "./styles.js";
+import { Container, ContainerCardMission } from "./styles.js";
 import { Menu } from "../../components/Menu/index.jsx";
 import { FasesHtml } from "./FasesHtml/index.jsx";
+import { BarraProgresso } from "./BarraProgresso/index.jsx";
+import { ItemsMenu } from "./ItemsMenu/index.jsx";
 
 export function Html() {
   return (
     <>
       <Container>
         <Menu></Menu>
-        <ContainerDiv>
+        <BarraProgresso />
+
+        <ContainerCardMission>
           <h1>Missão 1</h1>
-          <ul>
-            <li>
-              <div />
-            </li>
-            <li>
-              <div />
-            </li>
-            <li>
-              <div />
-            </li>
-            <li>
-              <div />
-            </li>
-          </ul>
-        </ContainerDiv>
+          <ItemsMenu />
+        </ContainerCardMission>
+
         <FasesHtml />
       </Container>
     </>
