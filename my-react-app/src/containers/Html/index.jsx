@@ -3,7 +3,7 @@ import { Container, ContainerCardMission } from "./styles.js";
 import { Menu } from "../../components/Menu/index.jsx";
 import { FasesHtml } from "./FasesHtml/index.jsx";
 import { BarraProgresso } from "./BarraProgresso/index.jsx";
-import { ItemsMenu } from "./ItemsMenu/index.jsx";
+import { ItemsMenu } from "./ItemsCardPrincipal/index.jsx";
 
 export function Html() {
   return (
