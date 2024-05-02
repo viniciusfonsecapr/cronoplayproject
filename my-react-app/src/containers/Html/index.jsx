@@ -3,7 +3,9 @@ import { Container, ContainerCardMission } from "./styles.js";
 import { Menu } from "../../components/Menu/index.jsx";
 import { FasesHtml } from "./FasesHtml/index.jsx";
 import { BarraProgresso } from "./BarraProgresso/index.jsx";
-import { ItemsMenu } from "./ItemsCardPrincipal/index.jsx";
+import { ItemsCardPrincipal } from "./ItemsCardPrincipal/index.jsx";
+
+import Astronault from "../../assets/stepOne/astronault.gif";
 
 export function Html() {
   return (
@@ -11,10 +13,10 @@ export function Html() {
       <Container>
         <Menu></Menu>
         <BarraProgresso />
+        <img src={Astronault} id="Astronalta" />
 
         <ContainerCardMission>
-          <h1>Missão 1</h1>
-          <ItemsMenu />
+          <ItemsCardPrincipal />
         </ContainerCardMission>
 
         <FasesHtml />
