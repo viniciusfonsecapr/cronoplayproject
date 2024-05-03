@@ -105,15 +105,16 @@ export function ItemsCardPrincipal() {
                 ></button>
               </div>
               <div className="modal-body">
-                <iframe
-                  width="1060"
-                  height="615"
-                  src="https://www.youtube.com/watch?v=FhedwpmefOw&pp=ygUMZGV2Y2x1YiBodG1s"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+              <iframe 
+              width="930" 
+              height="523" 
+              src="https://www.youtube.com/embed/tBl8jfR05rA" 
+              title="Curso de HTML | Aprenda HTML em 15 minutos | Seu Primeiro site" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen
+              ></iframe>
               </div>
 
               <div className="modal-footer">
@@ -148,15 +149,15 @@ export function ItemsCardPrincipal() {
                 ></button>
               </div>
               <div className="modal-body">
-                <iframe
-                  width="1060"
-                  height="615"
-                  src="https://www.youtube.com/watch?v=KC2WD_rXXp8&t=2617s"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+              <iframe width="930" 
+              height="523" 
+              src="https://www.youtube.com/embed/KDab8z0K3aI?list=PLsFVybaG4mOBSIcGcSTLCBW5kWvjbRZlj" 
+              title="🔴 APRENDA O QUE É HTML E CRIE SEU PRIMEIRO SITE - BÔNUS INCRÍVEL NO FINAL" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen
+              ></iframe>
               </div>
 
               <div className="modal-footer">
@@ -191,14 +192,15 @@ export function ItemsCardPrincipal() {
                 ></button>
               </div>
               <div className="modal-body">
-                <iframe
-                  width="1060"
-                  height="615"
-                  src="https://www.youtube.com/embed/KDab8z0K3aI?si=plg6ku2MUncd_Wgy"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
+                <iframe 
+                width="930" 
+                height="523" 
+                src="https://www.youtube.com/embed/KC2WD_rXXp8" 
+                title="Curso de HTML | Tornando-se um Programador do ZERO ao AVANÇADO" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen
                 ></iframe>
               </div>
 
