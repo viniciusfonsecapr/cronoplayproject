@@ -108,7 +108,7 @@ export function ItemsCardPrincipal() {
                 <iframe
                   width="1060"
                   height="615"
-                  src="https://www.youtube.com/embed/KDab8z0K3aI?si=plg6ku2MUncd_Wgy"
+                  src="https://www.youtube.com/watch?v=FhedwpmefOw&pp=ygUMZGV2Y2x1YiBodG1s"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
@@ -151,7 +151,7 @@ export function ItemsCardPrincipal() {
                 <iframe
                   width="1060"
                   height="615"
-                  src="https://www.youtube.com/embed/KDab8z0K3aI?si=plg6ku2MUncd_Wgy"
+                  src="https://www.youtube.com/watch?v=KC2WD_rXXp8&t=2617s"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
