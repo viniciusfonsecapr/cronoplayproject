@@ -11,4 +11,9 @@ export const ContainerListItems = styled.div`
   h1 {
     margin-left: 30%;
   }
+
+  :hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
 `;
