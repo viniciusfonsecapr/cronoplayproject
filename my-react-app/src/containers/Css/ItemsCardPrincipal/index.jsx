@@ -14,7 +14,7 @@ export function ItemsCardPrincipal() {
             data-bs-toggle="modal"
             data-bs-target="#introducao"
           >
-            <img src={Mais} /> Introdução
+            <img src={Mais} /> <span>Introdução</span>
           </button>
           <button
             type="button"
@@ -22,7 +22,8 @@ export function ItemsCardPrincipal() {
             data-bs-toggle="modal"
             data-bs-target="#dois"
           >
-            <img src={Mais} /> Aprenda HTML Do Zero com Rodolfo Mori
+            <img src={Mais} />{" "}
+            <span>Aprenda HTML Do Zero com Rodolfo Mori</span>
           </button>
           <button
             type="button"
@@ -30,7 +31,7 @@ export function ItemsCardPrincipal() {
             data-bs-toggle="modal"
             data-bs-target="#tres"
           >
-            <img src={Mais} /> Aprenda HTML e Faça o Primeiro Site
+            <img src={Mais} /> <span>Aprenda HTML e Faça o Primeiro Site</span>
           </button>
           <button
             type="button"
@@ -38,7 +39,7 @@ export function ItemsCardPrincipal() {
             data-bs-toggle="modal"
             data-bs-target="#quatro"
           >
-            <img src={Mais} /> HTML do Zero ao Avançado
+            <img src={Mais} /> <span>HTML do Zero ao Avançado</span>
           </button>
         </ContainerListItems>
 
