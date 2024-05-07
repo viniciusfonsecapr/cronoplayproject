@@ -1,3 +1,6 @@
+Projeto voltado para resolução do desafio proposto no Hackthon do MBA do Devclub. 
+
+
 ## Passo a passo para instalação e inicialização em maquina local.
 
 Passo a passo para rodar a aplicação em seu computador.
