@@ -77,6 +77,7 @@ export const Button = styled.button`
   background: #2247b5;
   cursor: pointer;
   text-decoration: none;
+  align-items:center
 
   &:hover {
     opacity: 0.7;
