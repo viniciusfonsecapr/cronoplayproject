@@ -23,7 +23,7 @@ export function ItemsCardPrincipal() {
             data-bs-target="#dois"
           >
             <img src={Mais} />{" "}
-            <span>Aprenda HTML Do Zero com Rodolfo Mori</span>
+            <span>Menu ANIMADO com HTML + CSS + JavaScript</span>
           </button>
           <button
             type="button"
@@ -31,7 +31,7 @@ export function ItemsCardPrincipal() {
             data-bs-toggle="modal"
             data-bs-target="#tres"
           >
-            <img src={Mais} /> <span>Aprenda HTML e Faça o Primeiro Site</span>
+            <img src={Mais} /> <span>Criando um site de Portfólio do ZERO</span>
           </button>
           <button
             type="button"
@@ -39,7 +39,7 @@ export function ItemsCardPrincipal() {
             data-bs-toggle="modal"
             data-bs-target="#quatro"
           >
-            <img src={Mais} /> <span>HTML do Zero ao Avançado</span>
+            <img src={Mais} /> <span> Criando um site de Portfólio do ZERO pt. 2</span>
           </button>
         </ContainerListItems>
 
@@ -63,14 +63,16 @@ export function ItemsCardPrincipal() {
                 ></button>
               </div>
               <div className="modal-body">
-                <iframe
-                  width="1060"
-                  height="615"
-                  src="https://www.youtube.com/embed/KDab8z0K3aI?si=plg6ku2MUncd_Wgy"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                ></iframe>
+              <iframe 
+              width="930" 
+              height="523" 
+              src="https://www.youtube.com/embed/yjmhSn0j8ac?list=PLsFVybaG4mOAXJTzysk9-d3OeROyWhhvs" 
+              title="CURSO DE CSS DO ZERO - APRENDA NA PRÁTICA - TUTORIAL COMPLETO" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen
+              ></iframe>
               </div>
 
               <div className="modal-footer">
@@ -95,7 +97,7 @@ export function ItemsCardPrincipal() {
             <div className="modal-content">
               <div className="modal-header">
                 <h1 className="modal-title fs-5" id="exampleModalLabel">
-                  Aprenda HTML Do Zero com Rodolfo Mori
+                Menu ANIMADO com HTML + CSS + JavaScript
                 </h1>
                 <button
                   type="button"
@@ -105,14 +107,16 @@ export function ItemsCardPrincipal() {
                 ></button>
               </div>
               <div className="modal-body">
-                <iframe
-                  width="930"
-                  height="523"
-                  src="https://www.youtube.com/embed/tBl8jfR05rA"
-                  title="Curso de HTML | Aprenda HTML em 15 minutos | Seu Primeiro site"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                ></iframe>
+              <iframe 
+              width="930" 
+              height="523" 
+              src="https://www.youtube.com/embed/01NubIe9Pao?list=PLsFVybaG4mOAXJTzysk9-d3OeROyWhhvs" 
+              title="Menu ANIMADO com HTML + CSS + JavaScript | Passo a passo | Simplificando Programação" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen
+              ></iframe>
               </div>
 
               <div className="modal-footer">
@@ -137,7 +141,7 @@ export function ItemsCardPrincipal() {
             <div className="modal-content">
               <div className="modal-header">
                 <h1 className="modal-title fs-5" id="exampleModalLabel">
-                  Aprenda HTML e Faça o Primeiro Site
+                Criando um site de Portfólio do ZERO
                 </h1>
                 <button
                   type="button"
@@ -147,14 +151,16 @@ export function ItemsCardPrincipal() {
                 ></button>
               </div>
               <div className="modal-body">
-                <iframe
-                  width="930"
-                  height="523"
-                  src="https://www.youtube.com/embed/KDab8z0K3aI?list=PLsFVybaG4mOBSIcGcSTLCBW5kWvjbRZlj"
-                  title="🔴 APRENDA O QUE É HTML E CRIE SEU PRIMEIRO SITE - BÔNUS INCRÍVEL NO FINAL"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                ></iframe>
+              <iframe 
+              width="930" 
+              height="523" 
+              src="https://www.youtube.com/embed/JaOnoBTVKec?list=PLsFVybaG4mOAXJTzysk9-d3OeROyWhhvs" 
+              title="LIVE #43 Criando um site de Portfólio do ZERO | Consiga seu primeiro emprego como Programador" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen
+              ></iframe>
               </div>
 
               <div className="modal-footer">
@@ -179,7 +185,7 @@ export function ItemsCardPrincipal() {
             <div className="modal-content">
               <div className="modal-header">
                 <h1 className="modal-title fs-5" id="exampleModalLabel">
-                  HTML do Zero ao Avançado
+                Criando um site de Portfólio do ZERO pt. 2
                 </h1>
                 <button
                   type="button"
@@ -189,14 +195,16 @@ export function ItemsCardPrincipal() {
                 ></button>
               </div>
               <div className="modal-body">
-                <iframe
-                  width="930"
-                  height="523"
-                  src="https://www.youtube.com/embed/KC2WD_rXXp8"
-                  title="Curso de HTML | Tornando-se um Programador do ZERO ao AVANÇADO"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                ></iframe>
+              <iframe 
+              width="930" 
+              height="523" 
+              src="https://www.youtube.com/embed/iBgeXW79kLI?list=PLsFVybaG4mOAXJTzysk9-d3OeROyWhhvs" 
+              title="LIVE #44 Criando um site de Portfólio do ZERO pt. 2 | Consiga seu primeiro emprego como Programador" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen
+              ></iframe>
               </div>
 
               <div className="modal-footer">
