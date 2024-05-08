@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Background from "../../assets/StepOne/background.png";
+import Background from "../../assets/stepOne/background.png";
 
 
 export const Container = styled.div`

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, ContainerListItems } from "./styles.js";
-import Mais from "../../../assets/StepOne/mais.svg";
+import Mais from "../../../assets/stepOne/mais.svg";
 
 export function ItemsCardPrincipal() {
   return (
