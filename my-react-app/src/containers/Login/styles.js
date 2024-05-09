@@ -80,4 +80,18 @@ export const ContainerItems = styled.div`
       }
     }
   }
+
+  @media (max-width: 600px) {
+    display: flex;
+    margin-top: 25%;
+    height:88%;
+    width: 90%;
+
+    form {
+     a {
+      margin: 30px 0px 30px 30px;
+     }
+    }
+  }
+  
 `;
