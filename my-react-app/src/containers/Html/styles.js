@@ -15,6 +15,12 @@ export const Container = styled.div`
   width: 20%;
   height: 35%;
  }
+
+ @media (max-width: 600px) {
+  #Astronalta {
+    display: none;
+  }
+}
 `;
 
 
@@ -36,5 +42,16 @@ export const ContainerCardMission = styled.div`
     font-weight: 900;
   }
 
-  
+   
+ @media (max-width: 600px) {
+  margin-top: 30%;
+  width: 100%;
+  height: 75%;
+  margin-left: 0vw;
+
+
+  span {
+    font-size: 18px;
+  }
+}
 `;
