@@ -18,4 +18,15 @@ export const ContainerListItems = styled.div`
     scale: 1.1;
     cursor: pointer;
   }
+
+  @media (max-width: 600px) {
+    gap: 45px;
+    button {
+      display: flex;
+      
+    }
+    span {
+      padding: 10px 0px 0px 5px;
+    }
+  }
 `;

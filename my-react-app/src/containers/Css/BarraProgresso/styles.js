@@ -24,5 +24,16 @@ export const ContainerProgressBar = styled.div`
    font-size: 15px;
    padding-left: 20%;
   }
+
+  @media (max-width: 600px) {
+  margin-top:23%;
+  width: 80%;
+  margin-left: 10vw;
+
+ h6 {
+  font-size: 12px;
+  padding-left: 10%;
+ }
+}
 `;
 
