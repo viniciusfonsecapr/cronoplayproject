@@ -58,6 +58,18 @@ export const ContainerItems = styled.div`
   
   
 }
+
+
+@media (max-width: 600px) {
+    display: flex;
+    margin-top: 20%;
+    height: 88%;
+    width: 90%;
+
+    a {
+      margin: 30px 0px;
+    }
+  }
 `;
 
 export const Button = styled.button`
